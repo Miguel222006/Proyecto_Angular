@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class CounterComponent {
 
   counter: number = 0;
+  string: string = ""
 
   increment() {
     this.counter += 1;
@@ -19,6 +20,10 @@ export class CounterComponent {
 
   reset() {
     this.counter = 0
+  }
+
+  kabum(){ 
+    this.string = "wasd"
   }
 
 }
