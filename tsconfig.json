@@ -2,6 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    // "ignoreDeprecations": "6.0", /*ARREGLO UN BUG, NO SE CUAL, ASI LO HIZO EL INSTRUCTOR*/
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
